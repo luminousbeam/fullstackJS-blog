@@ -10,8 +10,14 @@ const ArticlePage = ({ match }) => {
   const [articleInfo, setArticleInfo] = useState({ upvotes: 0, comments: [] });
 
   useEffect(() => {
-    setArticleInfo({ upvotes: 12});
-  })
+    const fetchData = async () => {
+      const result = await fetch(`/api/articles/${name}`)
+      const body = await result.json();
+      console.log(body);
+      setArticleInfo(body);
+    }
+    fetchData();
+  }, [name]);
 
   if (!article) return <NotFoundPage />
 
