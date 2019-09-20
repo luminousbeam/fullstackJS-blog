@@ -2,6 +2,7 @@
 React.js, Javascript, React Router Dom, Npm, Babel, Nodemon, Webpack, Express.js, Node.js, MongoDB
 
 **Front-End**
+
 Create a React App
 
 `npx create-react-app blog --use-npm`
@@ -14,6 +15,7 @@ Install react-router-dom
 `npm install react-router-dom`
 
 **Back-End**
+
 ```
 npm init -y
 npm install --save express
