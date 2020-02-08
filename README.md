@@ -46,4 +46,4 @@ Install Mongo
 `npm install --save mongodb`
 
 
-Simple blog deployed using an AWS EC2 instance https://ec2-18-232-150-118.compute-1.amazonaws.com
+Simple blog deployed using an AWS EC2 instance http://ec2-18-232-150-118.compute-1.amazonaws.com/
